@@ -1,10 +1,55 @@
 .marco{
     border: 3px solid rgb(244, 3, 3) ;
     border-radius: 10px;
-    padding-left: 10px;
+    padding-left: 19px;
+    padding-right: 19px;
+    float: left;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
 .bo{
 border-radius: 50%;
 height: 200px;
 width: 200px;
+float: left;
+margin-right: 15px;
+margin-top: 15px;
+margin-bottom: 15px;
+
 }
+.titulo1{
+   
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 350;
+        font-style:normal ;
+        font-size: 50px;
+        color: blueviolet;
+}
+.titulo2 {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .texto{
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 22px;
+    
+  }
+  .texto #textodentro{
+    text-indent: 15px;
+    font-size: 22px;
+    text-align: justify;
+    justify-content: flex-start;
+  }
+  
