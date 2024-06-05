@@ -56,4 +56,40 @@ margin-bottom: 15px;
     text-align: justify;
     justify-content: flex-start;
   }
+table{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-collapse: collapse;
+  width: fit-content;
+  border: 2px solid black;
+  }
+  th{
+    border: 2px solid black;
   
+  }
+tr{
+  border: 2px solid black;
+  
+}
+td{
+  border: 2px solid black;
+ text-align: center;
+  vertical-align: center;
+}
+#CF{
+  display: flex;
+  flex-direction: row;
+}
+.Display{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+label{
+  margin: ;
+}
+#dos{
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+}

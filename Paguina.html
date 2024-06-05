@@ -36,13 +36,75 @@
 <th>Nombre</th>
 <th>Edad</th>
 <th>Sexo?</th>
-
-<tr>
+<th>sueño</th>
+<tr class="fila">
     <td>Jesus</td>
     <td>18 Años</td>
     <td>Si</td>
+    <td>si mucho</td>
+</tr>
+<tr>
+    <td rowspan="2">dato dos</td>
+    <td colspan="2">Dato</td>
+    <td>dato</td>
+    </tr><tr>
+    <td>dato</td>
+    <td>dato</td>
+    <td>dato</td>
 </tr>
 </table>
+<br>
+<form action="si">
+<label> Videojuegos</label>
+<br>
+<label>Favorito</label>
+<input type="text" name="Favorito">
+
+<fieldset id="CF"> 
+<legend>Consola Favorita</legend>
+<div class="Display">
+<label for="Switch"><input type="radio" name="CF" value="1">Switch</label>
+
+<label for="PS5"><input type="radio"name="CF" value="3">PS5</label>
+
+<label for="Otros"><input type="radio"name="CF" value="5">Otros</label>
+
+</div>
+<div class="Display">
+<label for="Xbox"><input type="radio"name="CF" value="2">Xbox</label>
+
+<label for="PC"><input type="radio"name="CF" value="4">PC</label>
+</div>
+</fieldset>
+
+
+<h3>En donde has jugado</h3>
+<div id="dos">
+
+<label for="consola"><input type="checkbox" name="Donde">wii</label>
+
+<input type="checkbox" name="Donde">
+<label for="consola">PS5</label>
+
+<input type="checkbox" name="Donde">
+<label for="consola">Xbox</label>
+
+<input type="checkbox" name="Donde">
+<label for="consola">Nintendo Switch</label>
+<br>
+<input type="checkbox" name="Donde">
+<label for="consola">VR</label>
+
+
+<input type="checkbox" name="Donde">
+<label for="consola">PC</label>
+</div>
+
+<h3>Cual fue la ultima vez que jugaste</h3>
+<label for="fecha"> Fecha</label><input type="date" name="Fechault" >
+<input type="submit" name="enviar ">
+
+</form>
 </body>
 
 
