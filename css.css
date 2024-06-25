@@ -1,6 +1,28 @@
+html{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
 body{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(Fondo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+  width: 100%
+}
+header{
+  background-color: black;
+  padding: 20px 0 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom:4px solid rgb(37, 0, 224 ) ;
 }
 .marco{
     border: 3px solid rgb(244, 3, 3) ;
@@ -11,7 +33,7 @@ body{
     width: fit-content;
     align-items: center;
     justify-content: center;
-    
+    background-color: white;
     
 }
 .bo{
@@ -30,7 +52,8 @@ margin-bottom: 15px;
         font-weight: 350;
         font-style:normal ;
         font-size: 50px;
-        color: blueviolet;
+        color: white;
+        margin: 0;
 }
 .titulo2 {
     font-family: "Urbanist", sans-serif;
@@ -40,21 +63,27 @@ margin-bottom: 15px;
     font-size: 35px;
     margin-top: 10px;
     margin-bottom: 5px;
+    color: antiquewhite;
   }
 
+  #PrimPart{
+    background-color: hsl(208, 100%, 97%, 15%) ;
+    padding: 15px;
+  }
   .texto{
     font-family: "Libre Franklin", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
     font-size: 22px;
-    
+    color: antiquewhite;
   }
-  .texto #textodentro{
+   #textodentro{
     text-indent: 15px;
     font-size: 22px;
     text-align: justify;
     justify-content: flex-start;
+    color: black;
   }
 table{
   display: flex;
@@ -86,10 +115,12 @@ td{
   flex-direction: column;
   margin-right: 32px;
 }
-label{
-  margin: ;
-}
+
 #dos{
   display: grid;
   grid-template-columns:repeat(2,1fr);
+}
+#sobre{
+  color: blueviolet;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
